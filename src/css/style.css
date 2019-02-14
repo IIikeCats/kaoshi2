@@ -182,3 +182,105 @@ textarea {
 html {
   font-size: 37.5px;
 }
+
+li {
+  list-style: none;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.26667rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f0eff0;
+}
+
+header {
+  width: 100%;
+  height: 1.06667rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header li img {
+  width: 0.53333rem;
+  height: 0.53333rem;
+}
+
+header h2 {
+  font-size: 0.48rem;
+}
+
+section {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section .section {
+  width: 100%;
+  height: 2.66667rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+section .section dl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section .section dl dt {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+section .section dl dt img {
+  width: 100%;
+  height: 100%;
+}
+
+section .section dl dd {
+  line-height: 0.8rem;
+}
+
+section .nr {
+  flex: 1;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+}
+
+footer li {
+  width: 1.06667rem;
+  height: 1.06667rem;
+}
+
+footer li > img {
+  width: 100%;
+  height: 100%;
+}
+
+footer > img {
+  width: 4rem;
+  height: 0.93333rem;
+}
